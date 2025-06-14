@@ -1,0 +1,186 @@
+:root {
+  --c-blue: #0073ff;
+  --c-black: #000;
+  --c-white: #fff;
+  --c-eee: #eee;
+  --c-ddd: #ddd;
+  --c-444: #444;
+}
+
+.c-blue {
+  color: var(--c-blue) !important;
+}
+
+.bg-blue {
+  background-color: var(--c-blue) !important;
+}
+
+.c-fff {
+  color: var(--c-white) !important;
+}
+
+.bg-fff {
+  background-color: var(--c-white) !important;
+}
+
+.c-000 {
+  color: var(--c-black) !important;
+}
+
+.bg-eee {
+  background-color: var(--c-eee) !important;
+}
+
+.c-ddd {
+  color: var(--c-ddd) !important;
+}
+
+.c-444 {
+  color: var(--c-444) !important;
+}
+
+/* start class */
+*:focus {
+  box-shadow: none !important;
+}
+
+.fs-18px {
+  font-size: 18px;
+}
+
+body {
+  font-family: "Poppins", "system-ui";
+}
+
+img {
+  width: 100%;
+  height: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: var(--c-black) !important;
+}
+
+.filter-brightness {
+  filter: brightness(0.5);
+}
+
+.card-shadow {
+  box-shadow: 0 0 10px var(--c-eee);
+}
+
+/* end class */
+/* start navbar */
+.navbar {
+  box-shadow: 0 0 10px var(--c-444);
+  height: 65px;
+}
+
+.navbar .navbar-nav .nav-link:hover,
+.navbar .navbar-nav .nav-link:focus,
+.navbar .navbar-nav .nav-link.active {
+  color: var(--c-blue) !important;
+}
+
+.navbar-collapse {
+  background-color: #fff;
+  box-shadow: 0 0 10px #ddd;
+}
+
+/* end navbar */
+/* start carousel */
+.carousel-caption {
+  bottom: 50%;
+  transform: translateY(50%);
+}
+
+/* end carousel */
+/* end facilities */
+.facilities-card .container .icon {
+  width: 40px;
+  height: 40px;
+}
+
+/* end facilities */
+/* start popular */
+.popular .popular-card .feat {
+  transition: 0.3s;
+}
+
+.popular .popular-card .feat:hover {
+  transform: scale(1.02);
+}
+
+.popular .popular-card .icons .icon {
+  transition: 0.3s;
+}
+
+.popular .popular-card .icons .icon:hover {
+  transform: scale(1.19);
+}
+
+.popular .popular-card .icons .icon:hover a {
+  color: var(--c-blue) !important;
+}
+
+/* end popular */
+/* start pricing */
+.pricing .pricing-card .container {
+  transition: 0.3s;
+}
+
+.pricing .pricing-card .container:hover {
+  transform: scale(1.02);
+}
+
+.pricing .pricing-card .container .icon {
+  width: 50px;
+  height: 50px;
+}
+
+.pricing .pricing-card .container .shop a {
+  background: transparent;
+  /*  bootstrab */
+  border: 2px solid var(--bs-blue);
+}
+
+.pricing .pricing-card .container .shop:hover a {
+  background: var(--c-blue) !important;
+  color: var(--c-white) !important;
+}
+
+/* end pricing */
+/* start blog */
+.blog .blog-card .feat {
+  transition: 0.3s;
+}
+
+.blog .blog-card .feat:hover {
+  transform: scale(1.02);
+}
+
+.blog .blog-card .more:hover a {
+  text-decoration: underline;
+  color: var(--c-blue) !important;
+}
+
+/* end blog */
+/* start footer */
+.container footer li a:hover {
+  color: var(--c-blue) !important;
+}
+
+/* end footer */
+/* start responsef */
+@media (max-width:768px) {
+  .title {
+    width: 100% !important;
+  }
+
+  .p-5 {
+    padding: 1rem !important;
+  }
+}
+
+/* end responsef */
